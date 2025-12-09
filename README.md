@@ -1,6 +1,16 @@
 # Marionette Control Plane
 
-A sophisticated microservices behavior management system that enables real-time configuration and monitoring of distributed applications in Kubernetes environments. Built with Clean Architecture principles and modern Java/Spring Boot technologies.
+<div align="center">
+
+### A sophisticated microservices behavior management system for Kubernetes environments
+
+*Real-time Configuration and Monitoring of Distributed Applications* 🎭
+
+[![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://openjdk.java.net/) [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen.svg)](https://spring.io/projects/spring-boot) [![Kubernetes](https://img.shields.io/badge/Kubernetes-Ready-326CE5.svg)](https://kubernetes.io/) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+<img src="imgs/home-ui-marionettist.png" alt="Marionette Control Plane Dashboard" width="600"/>
+
+</div>
 
 ## What is Marionette?
 
@@ -16,25 +26,25 @@ The system allows you to:
 - Target specific methods and classes for behavior injection
 - Reset configurations to template defaults instantly
 
+The complete view of the architecture can be seen here:
+
+
+<div align="center">
+
+<img src="imgs/deployment-view-marionettist.png" width="800">
+
+</div>
+
 ## Architecture
 
-This project follows **Clean Architecture** principles with clear separation of concerns:
+This project follows **Clean Architecture** principles with clear separation of concerns. In the image it is possible to see the main components of the system divided into the traditional layers of a clean architectural style.
 
-```
-┌─────────────────────────────────────────────┐
-│                Presentation                 │
-│  Controllers, DTOs, React Frontend          │
-├─────────────────────────────────────────────┤
-│              Use Cases                      │
-│  Business Logic, Application Services       │
-├─────────────────────────────────────────────┤
-│               Domain                        │
-│  Entities, Value Objects, Domain Services   │
-├─────────────────────────────────────────────┤
-│            Infrastructure                   │
-│  Adapters, External Services, Persistence   │
-└─────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="imgs/clean-arch-diagram.png" width="600">
+
+</div>
+
 
 ## Features
 
