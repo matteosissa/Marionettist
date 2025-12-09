@@ -41,7 +41,7 @@ This project follows **Clean Architecture** principles with clear separation of 
 
 <div align="center">
 
-<img src="imgs/clean-arch-diagram.png" width="800">
+<img src="imgs/clean-arch-diagram.png" width="700">
 
 </div>
 
