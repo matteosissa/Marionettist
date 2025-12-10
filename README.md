@@ -8,7 +8,7 @@
 
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://openjdk.java.net/) [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen.svg)](https://spring.io/projects/spring-boot) [![Kubernetes](https://img.shields.io/badge/Kubernetes-Ready-326CE5.svg)](https://kubernetes.io/) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-<img src="imgs/home-ui-marionettist.png" alt="Marionette Control Plane Dashboard" width="500"/>
+<img src="imgs/home-ui-marionettist.png" alt="Marionette Control Plane Dashboard" width="650"/>
 
 </div>
 
@@ -31,7 +31,7 @@ The complete view of the architecture can be seen here:
 
 <div align="center">
 
-<img src="imgs/deployment-view-marionettist.png" width="700">
+<img src="imgs/deployment-view-marionettist.png" width="750">
 
 </div>
 
